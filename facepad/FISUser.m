@@ -10,4 +10,23 @@
 
 @implementation FISUser
 
+- (instancetype)init
+{
+    self = [self initWithUsername:@"" profilePic:nil cover:nil];
+    return self;
+}
+
+- (instancetype)initWithUsername:(NSString *)username profilePic:(UIImage *)profilePic cover:(UIImage *)cover
+{
+    self = [super init];
+    if (self)
+    {
+        _username = username;
+        _profilePic = profilePic;
+        _cover = cover;
+        _posts = @[];
+    }
+    return self;
+}
+
 @end

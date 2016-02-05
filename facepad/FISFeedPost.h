@@ -12,4 +12,6 @@
 @interface FISFeedPost : NSObject
 @property (nonatomic, strong) FISUser *user;
 @property (nonatomic, strong) NSDate *date;
+- (instancetype)init;
+- (instancetype)initWithUser:(FISUser *)user date:(NSDate *)date;
 @end

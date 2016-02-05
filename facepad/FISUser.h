@@ -11,6 +11,8 @@
 @interface FISUser : NSObject
 @property (nonatomic, strong) NSString *username;
 @property (nonatomic, strong) UIImage *profilePic;
-@property (nonatomic, strong) UIImage *coverPic;
+@property (nonatomic, strong) UIImage *cover;
 @property (nonatomic, strong) NSArray *posts;
+- (instancetype)init;
+- (instancetype)initWithUsername:(NSString *)username profilePic:(UIImage *)profilePic cover:(UIImage *)cover;
 @end

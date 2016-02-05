@@ -9,5 +9,5 @@
 #import "FISFeedPost.h"
 
 @interface FISImagePost : FISFeedPost
-@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong) UIImage *imageContent;
 @end
