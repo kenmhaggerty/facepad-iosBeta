@@ -20,4 +20,14 @@
     // Configure the view for the selected state
 }
 
+- (UIImage *)profilePic
+{
+    return self.userView.profilePic;
+}
+
+- (NSString *)profileUsername
+{
+    return self.userView.profileUsername;
+}
+
 @end

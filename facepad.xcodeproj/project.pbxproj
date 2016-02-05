@@ -21,6 +21,8 @@
 		7DF3D36D1C65311B00D926BD /* FISCoverImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D36C1C65311B00D926BD /* FISCoverImageTableViewCell.m */; };
 		7DF3D3701C65312600D926BD /* FISTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D36F1C65312600D926BD /* FISTextTableViewCell.m */; };
 		7DF3D3731C65312F00D926BD /* FISImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D3721C65312F00D926BD /* FISImageTableViewCell.m */; };
+		7DF3D3761C6540C100D926BD /* FISUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D3751C6540C100D926BD /* FISUserView.m */; };
+		7DF3D3781C6540CC00D926BD /* FISUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF3D3771C6540CC00D926BD /* FISUserView.xib */; };
 		86B12BE4DC976B9D8136F1CD /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4F8F6C70C07E1998ABE051 /* libPods-unit_tests.a */; };
 		D80D149D19F09B720018489E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D149C19F09B720018489E /* Main.storyboard */; };
 		D80D14B119F0AC500018489E /* joe-burgess.png in Resources */ = {isa = PBXBuildFile; fileRef = D80D14B019F0AC500018489E /* joe-burgess.png */; };
@@ -70,6 +72,9 @@
 		7DF3D36F1C65312600D926BD /* FISTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTextTableViewCell.m; sourceTree = "<group>"; };
 		7DF3D3711C65312F00D926BD /* FISImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImageTableViewCell.h; sourceTree = "<group>"; };
 		7DF3D3721C65312F00D926BD /* FISImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImageTableViewCell.m; sourceTree = "<group>"; };
+		7DF3D3741C6540C100D926BD /* FISUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISUserView.h; sourceTree = "<group>"; };
+		7DF3D3751C6540C100D926BD /* FISUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISUserView.m; sourceTree = "<group>"; };
+		7DF3D3771C6540CC00D926BD /* FISUserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FISUserView.xib; sourceTree = "<group>"; };
 		86CE7F4FAFDF497CBC7DDD14 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		BC7AF055F66F4AD4BAA48996 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		BF3743855881463492EBBA59 /* facepad-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "facepad-Prefix.pch"; sourceTree = "<group>"; };
@@ -168,6 +173,9 @@
 				7DF3D36F1C65312600D926BD /* FISTextTableViewCell.m */,
 				7DF3D3711C65312F00D926BD /* FISImageTableViewCell.h */,
 				7DF3D3721C65312F00D926BD /* FISImageTableViewCell.m */,
+				7DF3D3741C6540C100D926BD /* FISUserView.h */,
+				7DF3D3751C6540C100D926BD /* FISUserView.m */,
+				7DF3D3771C6540CC00D926BD /* FISUserView.xib */,
 			);
 			path = facepad;
 			sourceTree = "<group>";
@@ -317,6 +325,7 @@
 				D80D14B819F151830018489E /* coverimage.png in Resources */,
 				D80D14B319F0ACAE0018489E /* flying.png in Resources */,
 				D80D14B119F0AC500018489E /* joe-burgess.png in Resources */,
+				7DF3D3781C6540CC00D926BD /* FISUserView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +400,7 @@
 				F2DA577D1EC348D78215A834 /* main.m in Sources */,
 				7DF3D36D1C65311B00D926BD /* FISCoverImageTableViewCell.m in Sources */,
 				7DF3D35B1C65291000D926BD /* FISTextPost.m in Sources */,
+				7DF3D3761C6540C100D926BD /* FISUserView.m in Sources */,
 				7DF3D3701C65312600D926BD /* FISTextTableViewCell.m in Sources */,
 				7DF3D36A1C6530A100D926BD /* FISNewsFeedTableViewController.m in Sources */,
 				7DF3D3551C65285100D926BD /* FISUser.m in Sources */,

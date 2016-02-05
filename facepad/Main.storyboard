@@ -69,27 +69,21 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Njl-BI-ouC">
-                                            <rect key="frame" x="8" y="8" width="40" height="40"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHO-IP-i8D">
-                                            <rect key="frame" x="56" y="17" width="256" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHX-Km-RFz">
                                             <rect key="frame" x="8" y="58" width="304" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RDd-5a-UGe" customClass="FISUserView">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="postContent" destination="QHX-Km-RFz" id="3yN-y7-wbP"/>
-                                    <outlet property="profilePic" destination="Njl-BI-ouC" id="hcf-QL-J0e"/>
-                                    <outlet property="profileUsername" destination="qHO-IP-i8D" id="UYH-jw-pNi"/>
+                                    <outlet property="userView" destination="RDd-5a-UGe" id="IwQ-e3-Gg2"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageCell" rowHeight="220" id="fNB-oC-V7D" customClass="FISImageTableViewCell">
@@ -99,24 +93,18 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="219"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xSd-KF-LA6">
-                                            <rect key="frame" x="8" y="8" width="40" height="40"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzR-sf-8Ix">
-                                            <rect key="frame" x="56" y="17" width="256" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q14-Xq-wYL">
                                             <rect key="frame" x="8" y="56" width="304" height="155"/>
                                         </imageView>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ecM-mh-LVc" customClass="FISUserView">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="contentImage" destination="q14-Xq-wYL" id="roV-VS-XeV"/>
-                                    <outlet property="profilePic" destination="xSd-KF-LA6" id="j03-nx-2uM"/>
-                                    <outlet property="profileUsername" destination="MzR-sf-8Ix" id="zUw-hU-f0u"/>
+                                    <outlet property="userView" destination="ecM-mh-LVc" id="NHo-a1-YuZ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

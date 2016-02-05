@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FISUserView.h"
 
 @interface FISImageTableViewCell : UITableViewCell
-@property (nonatomic, strong) IBOutlet UIImageView *profilePic;
-@property (nonatomic, strong) IBOutlet UILabel *profileUsername;
+@property (nonatomic, strong) IBOutlet FISUserView *userView;
 @property (nonatomic, strong) IBOutlet UIImageView *contentImage;
+- (UIImageView *)profilePic;
+- (UILabel *)profileUsername;
 @end
