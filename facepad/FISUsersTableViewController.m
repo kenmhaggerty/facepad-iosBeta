@@ -11,6 +11,7 @@
 #import "FISTextPost.h"
 #import "FISImagePost.h"
 #import "FISNewsFeedTableViewController.h"
+#import "FISUserTableViewCell.h"
 
 @interface FISUsersTableViewController ()
 @property (nonatomic, strong) NSArray *users;
@@ -74,10 +75,12 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"userCell" forIndexPath:indexPath];
+    FISUserTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"userCell" forIndexPath:indexPath];
     
     FISUser *user = [self.users objectAtIndex:indexPath.row];
-    [cell.textLabel setText:user.username];
+    [cell.userView.profileUsername setText:user.username];
+    [cell.userView.profilePic setImage:user.profilePic];
+    [cell.postsCountLabel setText:[NSString stringWithFormat:@"%lu", user.posts.count]];
     
     return cell;
 }
