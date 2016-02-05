@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		123AC3603B044B81B556C4F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740CDFF7FA944F66B1714894 /* Foundation.framework */; };
 		4BF6F18D544D4B43AB53CEC1 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E7D20AB93443AAE831377 /* FISAppDelegate.m */; };
-		4D5549351BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549331BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D5549361BCC0A75001E3D77 /* FISUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549341BCC0A75001E3D77 /* FISUserSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D5549381BCC0BBF001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5549371BCC0BBF001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D5549351BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549331BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m */; };
+		4D5549361BCC0A75001E3D77 /* FISUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549341BCC0A75001E3D77 /* FISUserSpec.m */; };
+		4D5549381BCC0BBF001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5549371BCC0BBF001E3D77 /* Launch Screen.storyboard */; };
+		7DF3D3551C65285100D926BD /* FISUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D3541C65285100D926BD /* FISUser.m */; };
+		7DF3D3581C6528DE00D926BD /* FISFeedPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D3571C6528DE00D926BD /* FISFeedPost.m */; };
+		7DF3D35B1C65291000D926BD /* FISTextPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D35A1C65291000D926BD /* FISTextPost.m */; };
+		7DF3D35E1C65292500D926BD /* FISImagePost.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D35D1C65292500D926BD /* FISImagePost.m */; };
 		86B12BE4DC976B9D8136F1CD /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4F8F6C70C07E1998ABE051 /* libPods-unit_tests.a */; };
 		D80D149D19F09B720018489E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D149C19F09B720018489E /* Main.storyboard */; };
 		D80D14B119F0AC500018489E /* joe-burgess.png in Resources */ = {isa = PBXBuildFile; fileRef = D80D14B019F0AC500018489E /* joe-burgess.png */; };
@@ -43,6 +47,14 @@
 		6973C89B0B1442D6B3CA8976 /* facepad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "facepad-Info.plist"; sourceTree = "<group>"; };
 		740CDFF7FA944F66B1714894 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7AF6397B26500DFC5C424807 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DF3D3531C65285100D926BD /* FISUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISUser.h; sourceTree = "<group>"; };
+		7DF3D3541C65285100D926BD /* FISUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISUser.m; sourceTree = "<group>"; };
+		7DF3D3561C6528DE00D926BD /* FISFeedPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISFeedPost.h; sourceTree = "<group>"; };
+		7DF3D3571C6528DE00D926BD /* FISFeedPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFeedPost.m; sourceTree = "<group>"; };
+		7DF3D3591C65291000D926BD /* FISTextPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTextPost.h; sourceTree = "<group>"; };
+		7DF3D35A1C65291000D926BD /* FISTextPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTextPost.m; sourceTree = "<group>"; };
+		7DF3D35C1C65292500D926BD /* FISImagePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImagePost.h; sourceTree = "<group>"; };
+		7DF3D35D1C65292500D926BD /* FISImagePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImagePost.m; sourceTree = "<group>"; };
 		86CE7F4FAFDF497CBC7DDD14 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		BC7AF055F66F4AD4BAA48996 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		BF3743855881463492EBBA59 /* facepad-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "facepad-Prefix.pch"; sourceTree = "<group>"; };
@@ -123,6 +135,14 @@
 				1F8E7D20AB93443AAE831377 /* FISAppDelegate.m */,
 				FF2E31828EF54A4794F04731 /* Resources */,
 				D80D149C19F09B720018489E /* Main.storyboard */,
+				7DF3D3531C65285100D926BD /* FISUser.h */,
+				7DF3D3541C65285100D926BD /* FISUser.m */,
+				7DF3D3561C6528DE00D926BD /* FISFeedPost.h */,
+				7DF3D3571C6528DE00D926BD /* FISFeedPost.m */,
+				7DF3D3591C65291000D926BD /* FISTextPost.h */,
+				7DF3D35A1C65291000D926BD /* FISTextPost.m */,
+				7DF3D35C1C65292500D926BD /* FISImagePost.h */,
+				7DF3D35D1C65292500D926BD /* FISImagePost.m */,
 			);
 			path = facepad;
 			sourceTree = "<group>";
@@ -338,8 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF3D3581C6528DE00D926BD /* FISFeedPost.m in Sources */,
 				4BF6F18D544D4B43AB53CEC1 /* FISAppDelegate.m in Sources */,
+				7DF3D35E1C65292500D926BD /* FISImagePost.m in Sources */,
 				F2DA577D1EC348D78215A834 /* main.m in Sources */,
+				7DF3D35B1C65291000D926BD /* FISTextPost.m in Sources */,
+				7DF3D3551C65285100D926BD /* FISUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
